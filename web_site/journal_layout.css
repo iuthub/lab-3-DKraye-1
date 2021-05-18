@@ -8,24 +8,41 @@ body {
     font-size: 14pt;
 }
 
+
 .box{
+    overflow: auto;
     background-color: white;
     border: 10px white solid;
 }
 
 .headers{
+
     text-align: right;
     background-color: #A8F0F0;
 }
-
+.friends{
+    overflow: auto;
+    float: left;
+    padding: 5px;
+    margin-right: 4px;
+    border: 4px  solid;
+    border-color: #77A9E0 ; 
+    background-color: #E8FBFB;
+}
 .subtitle{
     overflow: auto;
     border: 4px solid;
     border-color: #C2E9E9;
     background-color: #E8FBFB;
     padding: 5px;
-    margin: 10 0 0 0;
+    margin: 10 0 0 0;    
 }
+
+#content{
+    overflow: auto;
+}
+
+
 
 .subtitle img{
     float: right;
@@ -36,4 +53,8 @@ body {
     border-top: 0;
     border-right: 0;
     border-left: 0;
+}
+/* select all elements */
+*:hover{
+    border: 1px yellow solid;
 }
